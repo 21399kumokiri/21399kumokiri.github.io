@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>tabelog-automation</title>
+<style>
+  :root { --bg:#fbfbf9; --fg:#1d2428; --muted:#5b676d; --line:#d9dedf; --link:#0b5cad; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14181a; --fg:#e8ecec; --muted:#9aa6aa; --line:#2b3336; --link:#7cb7f2; }
+  }
+  html { background:var(--bg); }
+  body { margin:0 auto; max-width:40rem; padding:3rem 1.25rem 4rem; color:var(--fg);
+         font:16px/1.85 "Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",system-ui,sans-serif; }
+  h1 { font-size:1.6rem; line-height:1.4; margin:0 0 .5rem; }
+  h2 { font-size:1.1rem; margin:2.2rem 0 .4rem; padding-top:1.2rem; border-top:1px solid var(--line); }
+  p, li { margin:.4rem 0; }
+  .lead { color:var(--muted); margin-bottom:1.5rem; }
+  a { color:var(--link); }
+  a:focus-visible { outline:2px solid var(--link); outline-offset:2px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>tabelog-automation</h1>
+  <p class="lead">食べログの訪問記録を、自分のGoogleアカウント内で整理するための個人用ツールです。</p>
+
+  <h2>このツールについて</h2>
+  <p>運営者本人が、自分のレストラン訪問記録(レビュー本文、訪問日、写真)を整理するために作った個人用のツールです。不特定多数の方に公開するサービスではありません。</p>
+
+  <h2>できること</h2>
+  <ul>
+    <li>Googleスプレッドシートの訪問記録に、新しい行を追加する</li>
+    <li>Googleドライブに、店ごとのフォルダを作り、写真を保存する</li>
+    <li>Googleフォトから、運営者本人が選んだ写真を、ドライブに取り込む</li>
+  </ul>
+
+  <h2>利用するGoogleのデータ</h2>
+  <p>運営者本人のGoogleアカウントにある、スプレッドシート・ドライブ・フォトのデータだけを扱います。ほかの人のデータは扱いません。</p>
+
+  <h2>プライバシーポリシー</h2>
+  <p>データの扱いについては、<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+</main>
+</body>
+</html>
